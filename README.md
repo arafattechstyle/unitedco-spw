@@ -1,4 +1,4 @@
-The intent of the project is to create a single page web site(SPW). It should contain below anchor tags. 
+	The intent of the project is to create a single page web site(SPW). It should contain below anchor tags. 
 
 * Home
 * About Us
@@ -30,3 +30,7 @@ Task List:
 From the task list, feel free to pick what you want to work on. Let's catch up next week for review. Meanwhile
 I will keep a look at this repo for any new code check-ins and review the same. 
 
+30/MAY
+
+- Vamshi: Try to work on header section.
+- Sai   : Try to implement applying a single background image for the entire website. 
