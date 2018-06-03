@@ -1,30 +1,108 @@
 /* Add a black background color to the top navigation */
+
+
+body {
+	background-color: #92a8d1;
+	max-width: 1080px;
+	margin: 0 auto !important;
+	float: none !important;
+
+}
 .topnav {
-    background-color: #333;
+    background-color: #92a8d1;
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+
+
+h1{
+	color: white;
+	font-family: fantasy;
+	font-size: 32px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 7.5px;
+ 	
+ 
 }
 
+h2{
+	font-family: fantasy;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 7.5px;
+}
+
+h3{
+	font-family: fantasy;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 7.5px;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+	font-family: fantasy;
+	font-weight: lighter;
+    margin: left;
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: left;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 15px;
+    font-style: normal;
+    
+}
+
+/* Set the menu bar position*/
+.container{
+	width: 100%;
+        height: 90px;
+        margin: 0 auto;
+	padding: 100px 50px;
+	display: block
+}
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: blue;
 }
 
 /* Add an active class to highlight the current page */
-.active {
-    background-color: #4CAF50;
+a.active1 {
+    background-color: #92a8d1;
     color: white;
+    border-bottom: 3px solid purple;
+    border-top: 3px solid black;
+    
+}
+a.active2 {
+    background-color: #92a8d1;
+    color: white;
+    border-bottom: 3px solid #00974b;
+    border-top: 3px solid yellow;
+    
+}
+
+a.active3 {
+    background-color: #92a8d1;
+    color: white;
+    border-bottom: 3px solid #000080;
+    border-top: 3px solid #0000a0;
+    
+}
+a.active4 {
+    background-color: #92a8d1;
+    color: white;
+    border-bottom: 3px solid yellow;;
+    border-top: 3px solid #00974b;
+    
 }
 
 /* Hide the link that should open and close the topnav on small screens */
